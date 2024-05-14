@@ -1,0 +1,11 @@
+SQL : npm install better-sqlite3
+=> After This => node initdb.js
+
+To generate slug : npm install slugify 
+To protect cross side scripting atack : npm install xss
+
+
+For Production:
+01) npm run build => 02) npm start
+
+// Note : When protect it built and deployed it does't contain "Public" folder.
